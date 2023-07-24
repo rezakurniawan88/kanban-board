@@ -34,8 +34,8 @@ function ModalTask() {
     }, [setValue, editData]);
 
     return (
-        <div className={isOpen ? "fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-white/20 backdrop-blur-lg dark:bg-slate-800/20" : "hidden"}>
-            <div className="relative bg-white w-4/5 md:w-2/5 min-h-[90%] md:h-[95%] pl-7 pr-5 py-5 border border-slate-200 drop-shadow-md shadow-slate-200 rounded-xl dark:bg-slate-900 dark:border-slate-100/20">
+        <div className={isOpen ? "fixed top-0 left-0 w-full h-full flex justify-center items-center bg-white/20 backdrop-blur-lg dark:bg-slate-800/20" : "hidden"}>
+            <div className="relative bg-white w-4/5 md:w-2/5 h-4/5 md:h-[95%] pl-7 pr-5 py-5 border border-slate-200 drop-shadow-md shadow-slate-200 rounded-xl dark:bg-slate-900 dark:border-slate-100/20">
                 <div className="flex justify-between">
                     <h1 className="font-bold text-base md:text-lg text-slate-800 dark:text-white">{editState ? "Edit Task" : "Add New Task"}</h1>
                     <button onClick={toggleOpen} className="cursor-pointer">
