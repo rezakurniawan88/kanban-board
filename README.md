@@ -1,4 +1,4 @@
-# Kanban Board - Built with React.js
+# Kanban Board - Built with React.JS
 
 [![React Version](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
 
